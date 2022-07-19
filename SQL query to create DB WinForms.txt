@@ -10,7 +10,7 @@ CREATE TABLE dbo.[People] (
 	[age] smallint NULL)
 ON [PRIMARY];
 GO
-INSERT INTO dbo.[People]([Id], [Name], [age])
+INSERT INTO dbo.[People]([Name], [age])
   VALUES ('Ann',  12),
 		('Ken',   9),
 		('Mark',  43),
